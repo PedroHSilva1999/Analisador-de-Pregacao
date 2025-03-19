@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+python-multipart
+pytube
+python-dotenv
+jinja2
+aiofiles
+youtube_transcript_api
+transformers
+torch
+google-generativeai==0.3.2

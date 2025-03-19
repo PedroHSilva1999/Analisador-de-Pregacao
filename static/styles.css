@@ -1,0 +1,75 @@
+.prose {
+    line-height: 1.8;
+    color: #374151;
+}
+
+.prose h3 {
+    color: #1f2937;
+    font-weight: 600;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.prose p {
+    margin-bottom: 1em;
+}
+
+.bible-verse {
+    background-color: #f8fafc;
+    border-left: 4px solid #3b82f6;
+    padding: 0.5em 1em;
+    margin: 0.5em 0;
+    border-radius: 0.25rem;
+}
+
+.main-topic {
+    background-color: #eff6ff;
+    padding: 0.75em 1em;
+    margin: 0.5em 0;
+    border-radius: 0.5rem;
+    border: 1px solid #bfdbfe;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#result {
+    animation: fadeIn 0.5s ease-out;
+}
+
+
+.main-container {
+    background: linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%);
+    min-height: 100vh;
+}
+
+.form-card {
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.95);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.analyze-button {
+    background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+    transition: all 0.3s ease;
+}
+
+.analyze-button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.main-title {
+    background: linear-gradient(135deg, #1f2937 0%, #374151 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+} 
