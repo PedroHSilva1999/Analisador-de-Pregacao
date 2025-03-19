@@ -5,7 +5,7 @@ Este é um sistema web que analisa pregações do YouTube, extraindo os principa
 ## Requisitos
 
 - Python 3.8 ou superior
-- Chave de API do OpenAI
+- Chave de API do Gemini
 
 ## Instalação
 
